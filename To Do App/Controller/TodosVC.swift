@@ -10,6 +10,7 @@ import CoreData
 
 class TodosVC: UIViewController {
     // this is a new class
+    // this is a new struct
     var todoArray: [Todo] = []
     
     @IBOutlet weak var todoTableView: UITableView!
