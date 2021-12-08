@@ -9,7 +9,6 @@ import UIKit
 import CoreData
 
 class TodosVC: UIViewController {
-    // this is a new class
     // this is a new struct
     var todoArray: [Todo] = []
     
