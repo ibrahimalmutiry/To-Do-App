@@ -1,0 +1,20 @@
+PODS:
+  - CleanyModal (1.0.3)
+  - TextFieldEffects (1.6.0)
+
+DEPENDENCIES:
+  - CleanyModal
+  - TextFieldEffects
+
+SPEC REPOS:
+  trunk:
+    - CleanyModal
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  CleanyModal: 5e5fece5b1de97b47ea091f6390ec2b16bfa2f20
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+
+PODFILE CHECKSUM: f10908333d08390d2429fd65f1575fcbfa12ecda
+
+COCOAPODS: 1.8.4
