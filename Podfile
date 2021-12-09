@@ -7,7 +7,7 @@ target 'To Do App' do
 
   # Pods for To Do App
    pod 'CleanyModal'
-pod 'TextFieldEffects'
-pod 'KMPlaceholderTextView', '~> 1.4.0'
-
+   pod 'TextFieldEffects'
+   pod 'KMPlaceholderTextView', '~> 1.4.0'
+  
 end
