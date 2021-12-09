@@ -38,7 +38,7 @@ class TodosVC: UIViewController {
         if let myTodo = notification.userInfo?["addedTodo"] as? Todo {
             todoArray.append(myTodo)
             todoTableView.reloadData()
-            storeTodo(todo: myTodo)
+            StoreData.storeTodo(todo: myTodo)
         }
     }
     
@@ -47,7 +47,7 @@ class TodosVC: UIViewController {
             if let index = notification.userInfo?["editedIndex"] as? Int {
                 todoArray[index] = myTodoEdit
                 todoTableView.reloadData()
-                updateTodos(todo: myTodoEdit, index: index)
+                StoreData.updateTodos(todo: myTodoEdit, index: index)
             }
         }
     }
@@ -56,72 +56,11 @@ class TodosVC: UIViewController {
         if let index = notification.userInfo?["deletedTodoIndex"] as? Int {
             todoArray.remove(at: index)
             todoTableView.reloadData()
-            deleteTodos(index: index)
+            StoreData.deleteTodos(index: index)
         }
     }
     
-    func storeTodo(todo: Todo){
-        guard let appdelegate = UIApplication.shared.delegate as? AppDelegate else {return}
-        let manageContext = appdelegate.persistentContainer.viewContext
-        guard let todoEntity = NSEntityDescription.entity(forEntityName: "Todo", in: manageContext) else { return }
-        
-        let todoObject = NSManagedObject.init(entity: todoEntity, insertInto: manageContext)
-        // to save string in Core Data
-        todoObject.setValue(todo.title, forKey: "title")
-        todoObject.setValue(todo.details, forKey: "details")
-        
-        // to save image in Core Data
-        if let image = todo.image {
-            let imageData = image.pngData()
-            todoObject.setValue(imageData, forKey: "image")
-        }
-        
-        do{
-           try manageContext.save()
-            print("------sucsses------")
-        }catch{
-            print("------error------")
-        }
-    }
-    
-    func updateTodos(todo: Todo, index: Int){
-        guard let appdelegate = UIApplication.shared.delegate as? AppDelegate else {return}
-        let context = appdelegate.persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Todo")
-
-        do{
-           let result = try context.fetch(fetchRequest) as! [NSManagedObject]
-            result[index].setValue(todo.title, forKey: "title")
-            result[index].setValue(todo.details, forKey: "details")
-            
-            if let image = todo.image {
-                let imageData = image.pngData()
-                result[index].setValue(imageData, forKey: "image")
-            }
-            
-           try context.save()
-            
-        }catch{
-            print("------error from getTodo------")
-        }
-    }
-    
-    func deleteTodos(index: Int){
-        guard let appdelegate = UIApplication.shared.delegate as? AppDelegate else {return}
-        let context = appdelegate.persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Todo")
-
-        do{
-           let result = try context.fetch(fetchRequest) as! [NSManagedObject]
-           let todoToDelete = result[index]
-            context.delete(todoToDelete)
-            
-           try context.save()
-            
-        }catch{
-            print("------error from getTodo------")
-        }
-    }
+ 
     
     func getTodos() -> [Todo]{
         var todos: [Todo] = []
@@ -189,6 +128,8 @@ extension TodosVC: UITableViewDataSource, UITableViewDelegate {
             
             navigationController?.pushViewController(viewControler, animated: true)
         }
+        
+       
     }
 }
 

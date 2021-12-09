@@ -7,109 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03468BF6F2A2ABA461A7203B97330D18 /* CleanyModalTransitionDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1BED08A4964DBCFCDB1812D4163EF /* CleanyModalTransitionDelegates.swift */; };
-		128113768F215586BF1A30FAAEB7167F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1853E7FA663CA82A7E9DCA2C471ACFDE /* CleanyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620EB81577321442FA33D4E3B569A0F /* CleanyConfig.swift */; };
-		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983E3E4373CB9532707DA82519518B8 /* MinoruTextField.swift */; };
-		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DA5CC9D381075AD9DF9B87E4479B2 /* TextFieldEffects.swift */; };
-		3A1035A8644C8406DE2DF6C8D940AA37 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC1DDE6934ABF2F269332C9105D9DEA /* NSLayoutConstraint+Extension.swift */; };
-		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 145E2762553132E3763BFF0237FDE601 /* TextFieldEffects-dummy.m */; };
-		59E79E40D5C85E7EFF1045DA94F6DA38 /* CleanyAlertViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4EAED9B9C5B40C9210226FCCE1241CA3 /* CleanyAlertViewController.xib */; };
-		5FCAC99BC6ECCB6D4D403D68FFCFD990 /* CleanyModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EE31DEC2DF6FC2A0EDA833662991B6 /* CleanyModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FF0C3AF361C5437D5AAE08E8C4CC164 /* CleanyAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216FD3CBF4E6856EF6061C492300F3D /* CleanyAlertActionTableViewCell.swift */; };
-		63D214D2310A2D9074F12C6348AA954E /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA982400B0F41CF6A9765ACF56B9C7C /* AlertModel.swift */; };
-		80D0F3B8053CF6571801170C03B35312 /* CleanyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBECA8D0591A2CE256BDE7D225BE1BF /* CleanyModalViewController.swift */; };
-		842E1B6E906CF2C9604BB57A15D8C045 /* CleanyModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39642FB17C0BAFAC859E8D820FC9D7B4 /* CleanyModal-dummy.m */; };
-		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF839660C8A9C73663089383524C7C /* JiroTextField.swift */; };
-		8845A182421086B98EB09E5BC86ADBD2 /* CleanyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5133D0AAA38B949040B456226C2FA053 /* CleanyAlertViewController.swift */; };
-		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C44338C91450E2DBEF13163C6A876A /* AkiraTextField.swift */; };
-		96E1DAD98B2084B41C8A8C9ADA5D3FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D48B2A11643C39532166C38FEDF32B /* YokoTextField.swift */; };
-		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E587170F3D432F913509AF672C1B1FE /* HoshiTextField.swift */; };
-		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D72071535639A8275321FB514E6CC5E9 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CEE88C56745D8341F115DDAC919816 /* KaedeTextField.swift */; };
-		BF0E17A0DB651C99D08F36B191AFCE0F /* CleanyAlertActionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 16F27F63BA2E8C60C0C8E9F1796A7B58 /* CleanyAlertActionTableViewCell.xib */; };
-		D3BB6E37924D91F3988EB6257DD98E1B /* Pods-To Do App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F0E8246A0078B51D2B40FCCC525113 /* Pods-To Do App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5A1E97AADF39F9CDA105FF2233669D3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07BE8B20B21FBAFEACFCF150FA214E6 /* UIColor+Extension.swift */; };
-		DA75FF66A47D375CC58B929B3202A518 /* Pods-To Do App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D6370BF6A2125275501301AAFE0E2C /* Pods-To Do App-dummy.m */; };
-		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D96765F5B8615134C611F42981D85 /* MadokaTextField.swift */; };
-		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC7CD56F3366FC91AFF990BBA4D3B5 /* YoshikoTextField.swift */; };
-		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91976B2993191687C5D16CBA50B4F5D0 /* IsaoTextField.swift */; };
-		FC4949A9590DC023C16D6E9BD61C0106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		03468BF6F2A2ABA461A7203B97330D18 /* CleanyModalTransitionDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE1B12CF9D9D0C88E54A1E49D84051B /* CleanyModalTransitionDelegates.swift */; };
+		1853E7FA663CA82A7E9DCA2C471ACFDE /* CleanyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477A374E33CA25A218809882CF1283B /* CleanyConfig.swift */; };
+		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EE462ADD1C550D9A76C2E31ED79680 /* MinoruTextField.swift */; };
+		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3922A9381855D7B968B911311A8BB /* TextFieldEffects.swift */; };
+		3A1035A8644C8406DE2DF6C8D940AA37 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75BA781240AA75BD6FF9742E6E66127 /* NSLayoutConstraint+Extension.swift */; };
+		426CFE8DF80F73238AE3D9DD8F494C8A /* KMPlaceholderTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E05B260B999A4B35588BEC47849B39E1 /* KMPlaceholderTextView-dummy.m */; };
+		437CE12F186F66CD62D6B2476428F341 /* Pods-To Do App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D6370BF6A2125275501301AAFE0E2C /* Pods-To Do App-dummy.m */; };
+		44826C94AC2E1EC02CA56BCB3BEC249D /* KMPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6785582D738E166DE08766FF54D758F /* KMPlaceholderTextView.swift */; };
+		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AB1AE1F8F0D233CFE50E811C064B8D /* TextFieldEffects-dummy.m */; };
+		59E79E40D5C85E7EFF1045DA94F6DA38 /* CleanyAlertViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = E5CDF94C0B87DC8B832EE5FEEA684950 /* CleanyAlertViewController.xib */; };
+		5FCAC99BC6ECCB6D4D403D68FFCFD990 /* CleanyModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2786374319C5A93FB0C13BF058F50D2B /* CleanyModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF0C3AF361C5437D5AAE08E8C4CC164 /* CleanyAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B17C18C57079E5572764270EBBCA89 /* CleanyAlertActionTableViewCell.swift */; };
+		63D214D2310A2D9074F12C6348AA954E /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263ADFEC0E59C0B8077C31C9DC2C322D /* AlertModel.swift */; };
+		77C07F5B4E949B7FE9F7E272C7CD7D43 /* Pods-To Do App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F0E8246A0078B51D2B40FCCC525113 /* Pods-To Do App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80D0F3B8053CF6571801170C03B35312 /* CleanyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502D1C7935853B45F9672FE4D6FB20D /* CleanyModalViewController.swift */; };
+		842E1B6E906CF2C9604BB57A15D8C045 /* CleanyModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FDEA1140F353A634CFECBF6B079A3C /* CleanyModal-dummy.m */; };
+		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5F8FD383FB034863879B45FA7F8F9 /* JiroTextField.swift */; };
+		8845A182421086B98EB09E5BC86ADBD2 /* CleanyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B8F31F595BE4A7117BDEA1DC20FE0 /* CleanyAlertViewController.swift */; };
+		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6756FDEF6FE22FC0CEB13A7565CEAE4 /* AkiraTextField.swift */; };
+		96E1DAD98B2084B41C8A8C9ADA5D3FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9B3351B6715281EE4A8E4AA0AFC0F239 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		9D1418FA3CE3767345C1B3816C106E73 /* KMPlaceholderTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEF9EAFD2619F3E4DA2EBABC351378 /* KMPlaceholderTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15C934D5888439ECD376004130346AC /* YokoTextField.swift */; };
+		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124788934985057C581669953F73058 /* HoshiTextField.swift */; };
+		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 403556EC4436785FA2ECE1935446E3A5 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F6BB5522132CF03856962F512D0B4D /* KaedeTextField.swift */; };
+		BF0E17A0DB651C99D08F36B191AFCE0F /* CleanyAlertActionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2FE895936A9801721130F7370D1D858B /* CleanyAlertActionTableViewCell.xib */; };
+		D5A1E97AADF39F9CDA105FF2233669D3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4442C44147B9A2A4181B031755BB57 /* UIColor+Extension.swift */; };
+		DBCEE2EFABC3C5AB1F9CE0262B8179E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D096EB93FE45489D83987D7F74A5EE0 /* MadokaTextField.swift */; };
+		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B6360A7A04041813AA4D3E6A06D40 /* YoshikoTextField.swift */; };
+		E626B24833C198EF61D1E436E09AF329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DA566EE372444B17FD19C1D418D6E5 /* IsaoTextField.swift */; };
+		FC4949A9590DC023C16D6E9BD61C0106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B64373E7E920C27777FB6B0C13544EDC /* PBXContainerItemProxy */ = {
+		5A3AAD32F7AA54B97A7471BB80E7CB3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
-			remoteInfo = TextFieldEffects;
+			remoteGlobalIDString = 2CBBDDE9729D72CBCA5AEAA0FAA019AD;
+			remoteInfo = KMPlaceholderTextView;
 		};
-		E6C4A1DEBD01237440E0938A39FF3B94 /* PBXContainerItemProxy */ = {
+		61B704DA67B0FEE13C5A285CB290D726 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9C45A829CDBA420E188ABC8136AA36AF;
 			remoteInfo = CleanyModal;
 		};
+		8D2289D71ED5E3C979F14EEEF3D50A50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
+			remoteInfo = TextFieldEffects;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09D48B2A11643C39532166C38FEDF32B /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		00B17C18C57079E5572764270EBBCA89 /* CleanyAlertActionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertActionTableViewCell.swift; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.swift; sourceTree = "<group>"; };
+		029BFE702C0E06F65640991021B4BFEC /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		0502D1C7935853B45F9672FE4D6FB20D /* CleanyModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalViewController.swift; path = CleanyModal/Classes/CleanyModalViewController.swift; sourceTree = "<group>"; };
+		07AB1AE1F8F0D233CFE50E811C064B8D /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		07AF653665BE1B2A325581F99D2E1640 /* KMPlaceholderTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMPlaceholderTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EE462ADD1C550D9A76C2E31ED79680 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		0F4442C44147B9A2A4181B031755BB57 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "CleanyModal/Classes/Helper/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		11D6370BF6A2125275501301AAFE0E2C /* Pods-To Do App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-To Do App-dummy.m"; sourceTree = "<group>"; };
-		145E2762553132E3763BFF0237FDE601 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
-		16F27F63BA2E8C60C0C8E9F1796A7B58 /* CleanyAlertActionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertActionTableViewCell.xib; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.xib; sourceTree = "<group>"; };
+		175022D1ECC351180747819581BC8870 /* CleanyModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-prefix.pch"; sourceTree = "<group>"; };
 		19F0E8246A0078B51D2B40FCCC525113 /* Pods-To Do App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-To Do App-umbrella.h"; sourceTree = "<group>"; };
 		21178DB5CDBC692CC05BCA07C95EB270 /* Pods-To Do App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-To Do App-frameworks.sh"; sourceTree = "<group>"; };
-		24BFB18367134BA78BAD1A0432838F90 /* CleanyModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-prefix.pch"; sourceTree = "<group>"; };
-		2D69349E25486B0DBED905834F11F5D5 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		214B8F31F595BE4A7117BDEA1DC20FE0 /* CleanyAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertViewController.swift; path = CleanyModal/Classes/CleanyAlertViewController.swift; sourceTree = "<group>"; };
+		263ADFEC0E59C0B8077C31C9DC2C322D /* AlertModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertModel.swift; path = CleanyModal/Classes/Model/AlertModel.swift; sourceTree = "<group>"; };
+		2786374319C5A93FB0C13BF058F50D2B /* CleanyModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-umbrella.h"; sourceTree = "<group>"; };
+		2FE895936A9801721130F7370D1D858B /* CleanyAlertActionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertActionTableViewCell.xib; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.xib; sourceTree = "<group>"; };
+		31CD037262E6C94EBB9984A33B7893D6 /* KMPlaceholderTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KMPlaceholderTextView.modulemap; sourceTree = "<group>"; };
+		33A7CE7A9FE300DACEAF24AE1827B320 /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
 		36799E3329FE2A2314E4A59E658B9FBE /* Pods-To Do App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-To Do App-Info.plist"; sourceTree = "<group>"; };
-		39642FB17C0BAFAC859E8D820FC9D7B4 /* CleanyModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleanyModal-dummy.m"; sourceTree = "<group>"; };
-		3983E3E4373CB9532707DA82519518B8 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
-		3E587170F3D432F913509AF672C1B1FE /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
-		41CEE88C56745D8341F115DDAC919816 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		4EAED9B9C5B40C9210226FCCE1241CA3 /* CleanyAlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertViewController.xib; path = CleanyModal/Classes/CleanyAlertViewController.xib; sourceTree = "<group>"; };
-		5133D0AAA38B949040B456226C2FA053 /* CleanyAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertViewController.swift; path = CleanyModal/Classes/CleanyAlertViewController.swift; sourceTree = "<group>"; };
-		52C44338C91450E2DBEF13163C6A876A /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		403556EC4436785FA2ECE1935446E3A5 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		40E0072036341466F78FFA241B84F871 /* KMPlaceholderTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KMPlaceholderTextView-Info.plist"; sourceTree = "<group>"; };
+		4D096EB93FE45489D83987D7F74A5EE0 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
 		58EB6AD4AC5266ABAD54C536731F9BD7 /* Pods-To Do App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-To Do App.debug.xcconfig"; sourceTree = "<group>"; };
-		5EA519AFF93DED9796469D6D16138FE6 /* CleanyModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CleanyModal.modulemap; sourceTree = "<group>"; };
-		60EE31DEC2DF6FC2A0EDA833662991B6 /* CleanyModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-umbrella.h"; sourceTree = "<group>"; };
-		64319BE1210CA710D894A6B6542374EE /* CleanyModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.xcconfig; sourceTree = "<group>"; };
-		6F141DFE8BEC9FA6410E1ED12D3D0A14 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		59DEF9EAFD2619F3E4DA2EBABC351378 /* KMPlaceholderTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMPlaceholderTextView-umbrella.h"; sourceTree = "<group>"; };
+		6530A5AF4BF3A1D68EC117F184E129E1 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
 		6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanyModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FA982400B0F41CF6A9765ACF56B9C7C /* AlertModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertModel.swift; path = CleanyModal/Classes/Model/AlertModel.swift; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F71C64B7531E529EAAB64D6DBA3ABE7 /* KMPlaceholderTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMPlaceholderTextView.xcconfig; sourceTree = "<group>"; };
+		81C3922A9381855D7B968B911311A8BB /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
 		84BADF3206ABED1CB5534AB0D9F4821D /* Pods-To Do App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-To Do App-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8620EB81577321442FA33D4E3B569A0F /* CleanyConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyConfig.swift; path = CleanyModal/Classes/CleanyConfig.swift; sourceTree = "<group>"; };
-		8EBECA8D0591A2CE256BDE7D225BE1BF /* CleanyModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalViewController.swift; path = CleanyModal/Classes/CleanyModalViewController.swift; sourceTree = "<group>"; };
-		91976B2993191687C5D16CBA50B4F5D0 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		8675E9B433F956D43E8268730F26AAAD /* CleanyModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.xcconfig; sourceTree = "<group>"; };
 		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F6BB5522132CF03856962F512D0B4D /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1B1BED08A4964DBCFCDB1812D4163EF /* CleanyModalTransitionDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalTransitionDelegates.swift; path = CleanyModal/Classes/CleanyModalTransitionDelegates.swift; sourceTree = "<group>"; };
+		9E54FF253691403D939F0AA7BE7F534B /* CleanyModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleanyModal-Info.plist"; sourceTree = "<group>"; };
 		A4F1927AAAE3EAC0858678F34FCF6090 /* Pods-To Do App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-To Do App.release.xcconfig"; sourceTree = "<group>"; };
-		AC1D96765F5B8615134C611F42981D85 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		A75BA781240AA75BD6FF9742E6E66127 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extension.swift"; path = "CleanyModal/Classes/Helper/NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
+		A89B6360A7A04041813AA4D3E6A06D40 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
 		AC1E1A7D32AC903756698E46922387B4 /* Pods-To Do App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-To Do App-acknowledgements.plist"; sourceTree = "<group>"; };
-		B02CA88EE25D2D7560D71FD08020F5D7 /* CleanyModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleanyModal-Info.plist"; sourceTree = "<group>"; };
-		B07BE8B20B21FBAFEACFCF150FA214E6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "CleanyModal/Classes/Helper/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		B28129F09C1A130D2DED555DF1045A1B /* Pods_To_Do_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_To_Do_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B36DA5CC9D381075AD9DF9B87E4479B2 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
-		B7BC7CD56F3366FC91AFF990BBA4D3B5 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
-		CBAF839660C8A9C73663089383524C7C /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		CD82F76ACCC9BE6C5FC6DE2F6A579A2B /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
-		D216FD3CBF4E6856EF6061C492300F3D /* CleanyAlertActionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertActionTableViewCell.swift; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.swift; sourceTree = "<group>"; };
-		D6FC817DDC697F41CC8B0A12071D33ED /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
-		D72071535639A8275321FB514E6CC5E9 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		DFC1DDE6934ABF2F269332C9105D9DEA /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extension.swift"; path = "CleanyModal/Classes/Helper/NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
+		B461810285B3AEAA920039937BBF0DE3 /* KMPlaceholderTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMPlaceholderTextView-prefix.pch"; sourceTree = "<group>"; };
+		C4D8F2FC2EE8435427491D47232791C0 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		C5FDEA1140F353A634CFECBF6B079A3C /* CleanyModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleanyModal-dummy.m"; sourceTree = "<group>"; };
+		C6756FDEF6FE22FC0CEB13A7565CEAE4 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		D124788934985057C581669953F73058 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		D15C934D5888439ECD376004130346AC /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4DA566EE372444B17FD19C1D418D6E5 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		D6785582D738E166DE08766FF54D758F /* KMPlaceholderTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMPlaceholderTextView.swift; path = KMPlaceholderTextView/KMPlaceholderTextView.swift; sourceTree = "<group>"; };
+		DB8B40381695A59BF474291DFAB31286 /* CleanyModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CleanyModal.modulemap; sourceTree = "<group>"; };
+		E05B260B999A4B35588BEC47849B39E1 /* KMPlaceholderTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMPlaceholderTextView-dummy.m"; sourceTree = "<group>"; };
+		E5CDF94C0B87DC8B832EE5FEEA684950 /* CleanyAlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertViewController.xib; path = CleanyModal/Classes/CleanyAlertViewController.xib; sourceTree = "<group>"; };
 		E793B6053DD97B857CFC2C06CA74CB41 /* Pods-To Do App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-To Do App.modulemap"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EAE1B12CF9D9D0C88E54A1E49D84051B /* CleanyModalTransitionDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalTransitionDelegates.swift; path = CleanyModal/Classes/CleanyModalTransitionDelegates.swift; sourceTree = "<group>"; };
+		F477A374E33CA25A218809882CF1283B /* CleanyConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyConfig.swift; path = CleanyModal/Classes/CleanyConfig.swift; sourceTree = "<group>"; };
+		F8D5F8FD383FB034863879B45FA7F8F9 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7B418D42A579F7C31B28116815A17566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCEE2EFABC3C5AB1F9CE0262B8179E3 /* Foundation.framework in Frameworks */,
+				9B3351B6715281EE4A8E4AA0AFC0F239 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81859345CA393FA92FC24B5DDDC69210 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FC4949A9590DC023C16D6E9BD61C0106 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48E55346DBA838F1510988EE7522E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E626B24833C198EF61D1E436E09AF329 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,24 +159,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B8BB98141219C6C26FC2B5686EB2ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				128113768F215586BF1A30FAAEB7167F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03946F691169B36FEA6311A5EBF9AFDE /* Pods */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E7040D396665E55D1CBEC167EE13962E /* CleanyModal */,
-				4A9B16C281640A45F763ECD6DD364D2C /* TextFieldEffects */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3436B47C73ED1F6C62E07DAA98E6A5B7 /* Pods-To Do App */ = {
@@ -158,44 +187,72 @@
 			path = "Target Support Files/Pods-To Do App";
 			sourceTree = "<group>";
 		};
-		43DE449D4A8F730B2B21A4E3D2AA2BCE /* Support Files */ = {
+		3E98EAFB920DC90F525A977A2691D697 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD82F76ACCC9BE6C5FC6DE2F6A579A2B /* TextFieldEffects.modulemap */,
-				6F141DFE8BEC9FA6410E1ED12D3D0A14 /* TextFieldEffects.xcconfig */,
-				145E2762553132E3763BFF0237FDE601 /* TextFieldEffects-dummy.m */,
-				D6FC817DDC697F41CC8B0A12071D33ED /* TextFieldEffects-Info.plist */,
-				2D69349E25486B0DBED905834F11F5D5 /* TextFieldEffects-prefix.pch */,
-				D72071535639A8275321FB514E6CC5E9 /* TextFieldEffects-umbrella.h */,
+				31CD037262E6C94EBB9984A33B7893D6 /* KMPlaceholderTextView.modulemap */,
+				6F71C64B7531E529EAAB64D6DBA3ABE7 /* KMPlaceholderTextView.xcconfig */,
+				E05B260B999A4B35588BEC47849B39E1 /* KMPlaceholderTextView-dummy.m */,
+				40E0072036341466F78FFA241B84F871 /* KMPlaceholderTextView-Info.plist */,
+				B461810285B3AEAA920039937BBF0DE3 /* KMPlaceholderTextView-prefix.pch */,
+				59DEF9EAFD2619F3E4DA2EBABC351378 /* KMPlaceholderTextView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/TextFieldEffects";
+			path = "../Target Support Files/KMPlaceholderTextView";
 			sourceTree = "<group>";
 		};
-		4A9B16C281640A45F763ECD6DD364D2C /* TextFieldEffects */ = {
+		4232A8A438BE443310687F5006D79F4D /* CleanyModal */ = {
 			isa = PBXGroup;
 			children = (
-				52C44338C91450E2DBEF13163C6A876A /* AkiraTextField.swift */,
-				3E587170F3D432F913509AF672C1B1FE /* HoshiTextField.swift */,
-				91976B2993191687C5D16CBA50B4F5D0 /* IsaoTextField.swift */,
-				CBAF839660C8A9C73663089383524C7C /* JiroTextField.swift */,
-				41CEE88C56745D8341F115DDAC919816 /* KaedeTextField.swift */,
-				AC1D96765F5B8615134C611F42981D85 /* MadokaTextField.swift */,
-				3983E3E4373CB9532707DA82519518B8 /* MinoruTextField.swift */,
-				B36DA5CC9D381075AD9DF9B87E4479B2 /* TextFieldEffects.swift */,
-				09D48B2A11643C39532166C38FEDF32B /* YokoTextField.swift */,
-				B7BC7CD56F3366FC91AFF990BBA4D3B5 /* YoshikoTextField.swift */,
-				43DE449D4A8F730B2B21A4E3D2AA2BCE /* Support Files */,
+				263ADFEC0E59C0B8077C31C9DC2C322D /* AlertModel.swift */,
+				00B17C18C57079E5572764270EBBCA89 /* CleanyAlertActionTableViewCell.swift */,
+				2FE895936A9801721130F7370D1D858B /* CleanyAlertActionTableViewCell.xib */,
+				214B8F31F595BE4A7117BDEA1DC20FE0 /* CleanyAlertViewController.swift */,
+				E5CDF94C0B87DC8B832EE5FEEA684950 /* CleanyAlertViewController.xib */,
+				F477A374E33CA25A218809882CF1283B /* CleanyConfig.swift */,
+				EAE1B12CF9D9D0C88E54A1E49D84051B /* CleanyModalTransitionDelegates.swift */,
+				0502D1C7935853B45F9672FE4D6FB20D /* CleanyModalViewController.swift */,
+				A75BA781240AA75BD6FF9742E6E66127 /* NSLayoutConstraint+Extension.swift */,
+				0F4442C44147B9A2A4181B031755BB57 /* UIColor+Extension.swift */,
+				C7F4BB10122D4E37F533007982F77282 /* Support Files */,
 			);
-			path = TextFieldEffects;
+			path = CleanyModal;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		46EF8ADDAFCFB3555C7FD0F93E15C524 /* KMPlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				D6785582D738E166DE08766FF54D758F /* KMPlaceholderTextView.swift */,
+				3E98EAFB920DC90F525A977A2691D697 /* Support Files */,
+			);
+			path = KMPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DA115C7257640B3434FB2C22E3F2BE6 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				C6756FDEF6FE22FC0CEB13A7565CEAE4 /* AkiraTextField.swift */,
+				D124788934985057C581669953F73058 /* HoshiTextField.swift */,
+				D4DA566EE372444B17FD19C1D418D6E5 /* IsaoTextField.swift */,
+				F8D5F8FD383FB034863879B45FA7F8F9 /* JiroTextField.swift */,
+				96F6BB5522132CF03856962F512D0B4D /* KaedeTextField.swift */,
+				4D096EB93FE45489D83987D7F74A5EE0 /* MadokaTextField.swift */,
+				09EE462ADD1C550D9A76C2E31ED79680 /* MinoruTextField.swift */,
+				81C3922A9381855D7B968B911311A8BB /* TextFieldEffects.swift */,
+				D15C934D5888439ECD376004130346AC /* YokoTextField.swift */,
+				A89B6360A7A04041813AA4D3E6A06D40 /* YoshikoTextField.swift */,
+				AEBECA5E40C07A7E14E8EB90D5145B02 /* Support Files */,
+			);
+			path = TextFieldEffects;
 			sourceTree = "<group>";
 		};
 		85ED8ED2C18C5315211375CA9ABF7CA6 /* Targets Support Files */ = {
@@ -206,83 +263,82 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BA1DA11109A7BD298FB805059E4A316C /* Support Files */ = {
+		AEBECA5E40C07A7E14E8EB90D5145B02 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5EA519AFF93DED9796469D6D16138FE6 /* CleanyModal.modulemap */,
-				64319BE1210CA710D894A6B6542374EE /* CleanyModal.xcconfig */,
-				39642FB17C0BAFAC859E8D820FC9D7B4 /* CleanyModal-dummy.m */,
-				B02CA88EE25D2D7560D71FD08020F5D7 /* CleanyModal-Info.plist */,
-				24BFB18367134BA78BAD1A0432838F90 /* CleanyModal-prefix.pch */,
-				60EE31DEC2DF6FC2A0EDA833662991B6 /* CleanyModal-umbrella.h */,
+				6530A5AF4BF3A1D68EC117F184E129E1 /* TextFieldEffects.modulemap */,
+				C4D8F2FC2EE8435427491D47232791C0 /* TextFieldEffects.xcconfig */,
+				07AB1AE1F8F0D233CFE50E811C064B8D /* TextFieldEffects-dummy.m */,
+				33A7CE7A9FE300DACEAF24AE1827B320 /* TextFieldEffects-Info.plist */,
+				029BFE702C0E06F65640991021B4BFEC /* TextFieldEffects-prefix.pch */,
+				403556EC4436785FA2ECE1935446E3A5 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		C7F4BB10122D4E37F533007982F77282 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB8B40381695A59BF474291DFAB31286 /* CleanyModal.modulemap */,
+				8675E9B433F956D43E8268730F26AAAD /* CleanyModal.xcconfig */,
+				C5FDEA1140F353A634CFECBF6B079A3C /* CleanyModal-dummy.m */,
+				9E54FF253691403D939F0AA7BE7F534B /* CleanyModal-Info.plist */,
+				175022D1ECC351180747819581BC8870 /* CleanyModal-prefix.pch */,
+				2786374319C5A93FB0C13BF058F50D2B /* CleanyModal-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CleanyModal";
-			sourceTree = "<group>";
-		};
-		BF52596C31CB1D94BBD18D4431DFDC91 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */,
-				B28129F09C1A130D2DED555DF1045A1B /* Pods_To_Do_App.framework */,
-				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				03946F691169B36FEA6311A5EBF9AFDE /* Pods */,
-				BF52596C31CB1D94BBD18D4431DFDC91 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DC52C4AB31C9E39531AED8386BF54DF0 /* Pods */,
+				F541B72091A470C7504E2BE821C49612 /* Products */,
 				85ED8ED2C18C5315211375CA9ABF7CA6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DC52C4AB31C9E39531AED8386BF54DF0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				4232A8A438BE443310687F5006D79F4D /* CleanyModal */,
+				46EF8ADDAFCFB3555C7FD0F93E15C524 /* KMPlaceholderTextView */,
+				7DA115C7257640B3434FB2C22E3F2BE6 /* TextFieldEffects */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		E7040D396665E55D1CBEC167EE13962E /* CleanyModal */ = {
+		F541B72091A470C7504E2BE821C49612 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FA982400B0F41CF6A9765ACF56B9C7C /* AlertModel.swift */,
-				D216FD3CBF4E6856EF6061C492300F3D /* CleanyAlertActionTableViewCell.swift */,
-				16F27F63BA2E8C60C0C8E9F1796A7B58 /* CleanyAlertActionTableViewCell.xib */,
-				5133D0AAA38B949040B456226C2FA053 /* CleanyAlertViewController.swift */,
-				4EAED9B9C5B40C9210226FCCE1241CA3 /* CleanyAlertViewController.xib */,
-				8620EB81577321442FA33D4E3B569A0F /* CleanyConfig.swift */,
-				A1B1BED08A4964DBCFCDB1812D4163EF /* CleanyModalTransitionDelegates.swift */,
-				8EBECA8D0591A2CE256BDE7D225BE1BF /* CleanyModalViewController.swift */,
-				DFC1DDE6934ABF2F269332C9105D9DEA /* NSLayoutConstraint+Extension.swift */,
-				B07BE8B20B21FBAFEACFCF150FA214E6 /* UIColor+Extension.swift */,
-				BA1DA11109A7BD298FB805059E4A316C /* Support Files */,
+				6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal.framework */,
+				07AF653665BE1B2A325581F99D2E1640 /* KMPlaceholderTextView.framework */,
+				B28129F09C1A130D2DED555DF1045A1B /* Pods_To_Do_App.framework */,
+				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
 			);
-			path = CleanyModal;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6CEA2C237E51F2E2141B3079BB1873E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C07F5B4E949B7FE9F7E272C7CD7D43 /* Pods-To Do App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		924E9EE5ACBA00953F7FCDC864068A5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5FCAC99BC6ECCB6D4D403D68FFCFD990 /* CleanyModal-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A72814CFAD735C1DFF7C1F0428076463 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3BB6E37924D91F3988EB6257DD98E1B /* Pods-To Do App-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,23 +350,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA347E71AD411562334A54AD294E5B3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1418FA3CE3767345C1B3816C106E73 /* KMPlaceholderTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5C426A275C977E8D1B5A3C77C2F1CB69 /* Pods-To Do App */ = {
+		2CBBDDE9729D72CBCA5AEAA0FAA019AD /* KMPlaceholderTextView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A126EE98EFCFB1327994EB4258D66E81 /* Build configuration list for PBXNativeTarget "Pods-To Do App" */;
+			buildConfigurationList = 02DB5ABBDCB43381B8C17AB474491E77 /* Build configuration list for PBXNativeTarget "KMPlaceholderTextView" */;
 			buildPhases = (
-				A72814CFAD735C1DFF7C1F0428076463 /* Headers */,
-				9666611EBE1688CAC69FDFAED281FCC7 /* Sources */,
-				E2B8BB98141219C6C26FC2B5686EB2ED /* Frameworks */,
-				7CEF84B1BE8DB27EF846E46786DB4372 /* Resources */,
+				FA347E71AD411562334A54AD294E5B3C /* Headers */,
+				EB0D2C6B152A14EAF22127728512077A /* Sources */,
+				7B418D42A579F7C31B28116815A17566 /* Frameworks */,
+				951C04517B930070518DADFAEA910EE9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				02085BEE0559AD60C369CD5BEB06E851 /* PBXTargetDependency */,
-				49BF64CC64F935E921EDFEA2767643D3 /* PBXTargetDependency */,
+			);
+			name = KMPlaceholderTextView;
+			productName = KMPlaceholderTextView;
+			productReference = 07AF653665BE1B2A325581F99D2E1640 /* KMPlaceholderTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C426A275C977E8D1B5A3C77C2F1CB69 /* Pods-To Do App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC55C774B4C258BC63C6C52B4DE185D /* Build configuration list for PBXNativeTarget "Pods-To Do App" */;
+			buildPhases = (
+				6CEA2C237E51F2E2141B3079BB1873E2 /* Headers */,
+				0A842535CD7F17158EB7BFE33C2C69D8 /* Sources */,
+				A48E55346DBA838F1510988EE7522E1C /* Frameworks */,
+				CB5A9491425E00BAD81A5B66B04ACAE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7090E77412D8E67A0E3F7EEE0B65E8 /* PBXTargetDependency */,
+				C34491D78568748B6C40C13B3397A5C2 /* PBXTargetDependency */,
+				69D294D8AA690727965B25BE065D6B0D /* PBXTargetDependency */,
 			);
 			name = "Pods-To Do App";
 			productName = "Pods-To Do App";
@@ -360,7 +443,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -371,11 +454,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BF52596C31CB1D94BBD18D4431DFDC91 /* Products */;
+			productRefGroup = F541B72091A470C7504E2BE821C49612 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */,
+				2CBBDDE9729D72CBCA5AEAA0FAA019AD /* KMPlaceholderTextView */,
 				5C426A275C977E8D1B5A3C77C2F1CB69 /* Pods-To Do App */,
 				D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */,
 			);
@@ -397,7 +481,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CEF84B1BE8DB27EF846E46786DB4372 /* Resources */ = {
+		951C04517B930070518DADFAEA910EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5A9491425E00BAD81A5B66B04ACAE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,11 +516,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9666611EBE1688CAC69FDFAED281FCC7 /* Sources */ = {
+		0A842535CD7F17158EB7BFE33C2C69D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA75FF66A47D375CC58B929B3202A518 /* Pods-To Do App-dummy.m in Sources */,
+				437CE12F186F66CD62D6B2476428F341 /* Pods-To Do App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0D2C6B152A14EAF22127728512077A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44826C94AC2E1EC02CA56BCB3BEC249D /* KMPlaceholderTextView.swift in Sources */,
+				426CFE8DF80F73238AE3D9DD8F494C8A /* KMPlaceholderTextView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,21 +554,99 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02085BEE0559AD60C369CD5BEB06E851 /* PBXTargetDependency */ = {
+		3B7090E77412D8E67A0E3F7EEE0B65E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CleanyModal;
 			target = 9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */;
-			targetProxy = E6C4A1DEBD01237440E0938A39FF3B94 /* PBXContainerItemProxy */;
+			targetProxy = 61B704DA67B0FEE13C5A285CB290D726 /* PBXContainerItemProxy */;
 		};
-		49BF64CC64F935E921EDFEA2767643D3 /* PBXTargetDependency */ = {
+		69D294D8AA690727965B25BE065D6B0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TextFieldEffects;
 			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
-			targetProxy = B64373E7E920C27777FB6B0C13544EDC /* PBXContainerItemProxy */;
+			targetProxy = 8D2289D71ED5E3C979F14EEEF3D50A50 /* PBXContainerItemProxy */;
+		};
+		C34491D78568748B6C40C13B3397A5C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KMPlaceholderTextView;
+			target = 2CBBDDE9729D72CBCA5AEAA0FAA019AD /* KMPlaceholderTextView */;
+			targetProxy = 5A3AAD32F7AA54B97A7471BB80E7CB3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01DA691B2EDB711DCBC736E0F467154D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F71C64B7531E529EAAB64D6DBA3ABE7 /* KMPlaceholderTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView.modulemap";
+				PRODUCT_MODULE_NAME = KMPlaceholderTextView;
+				PRODUCT_NAME = KMPlaceholderTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0BF16E765BA6CBB0A6EB6EF960CDD7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F1927AAAE3EAC0858678F34FCF6090 /* Pods-To Do App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-To Do App/Pods-To Do App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-To Do App/Pods-To Do App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1ECA0555EE0836E3B5FFB136EEBE1F4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -534,115 +712,7 @@
 			};
 			name = Debug;
 		};
-		725C4B8E8D409AEE4F845458C1F271AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F141DFE8BEC9FA6410E1ED12D3D0A14 /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				PRODUCT_MODULE_NAME = TextFieldEffects;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		92FA15108F7F7859324C035D378E34E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64319BE1210CA710D894A6B6542374EE /* CleanyModal.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CleanyModal/CleanyModal-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CleanyModal/CleanyModal-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CleanyModal/CleanyModal.modulemap";
-				PRODUCT_MODULE_NAME = CleanyModal;
-				PRODUCT_NAME = CleanyModal;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9A078422AFA4B1B54FC5E9AE95E03D55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4F1927AAAE3EAC0858678F34FCF6090 /* Pods-To Do App.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-To Do App/Pods-To Do App-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-To Do App/Pods-To Do App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B22CF02E7416D5841AAB03D015427ACC /* Debug */ = {
+		4D01FE0E0E67C15D726D9A3E2B514596 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58EB6AD4AC5266ABAD54C536731F9BD7 /* Pods-To Do App.debug.xcconfig */;
 			buildSettings = {
@@ -678,6 +748,76 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		725C4B8E8D409AEE4F845458C1F271AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D8F2FC2EE8435427491D47232791C0 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92FA15108F7F7859324C035D378E34E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8675E9B433F956D43E8268730F26AAAD /* CleanyModal.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CleanyModal/CleanyModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CleanyModal/CleanyModal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CleanyModal/CleanyModal.modulemap";
+				PRODUCT_MODULE_NAME = CleanyModal;
+				PRODUCT_NAME = CleanyModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C3D64790A0FE037697A0C2CDF06EBC03 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -740,9 +880,44 @@
 			};
 			name = Release;
 		};
+		D31A7C3FE885BB7B1376CE9ED3620216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F71C64B7531E529EAAB64D6DBA3ABE7 /* KMPlaceholderTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView.modulemap";
+				PRODUCT_MODULE_NAME = KMPlaceholderTextView;
+				PRODUCT_NAME = KMPlaceholderTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D3553EDB14714BB31394719CB01297BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64319BE1210CA710D894A6B6542374EE /* CleanyModal.xcconfig */;
+			baseConfigurationReference = 8675E9B433F956D43E8268730F26AAAD /* CleanyModal.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -755,7 +930,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CleanyModal/CleanyModal-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CleanyModal/CleanyModal-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -776,7 +951,7 @@
 		};
 		FD0E1CE5E158DA73F39EC2925BD00D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F141DFE8BEC9FA6410E1ED12D3D0A14 /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = C4D8F2FC2EE8435427491D47232791C0 /* TextFieldEffects.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -811,6 +986,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02DB5ABBDCB43381B8C17AB474491E77 /* Build configuration list for PBXNativeTarget "KMPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DA691B2EDB711DCBC736E0F467154D /* Debug */,
+				D31A7C3FE885BB7B1376CE9ED3620216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0E9477B4A996CED9C1C1F7C2D2173E26 /* Build configuration list for PBXNativeTarget "CleanyModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -829,20 +1013,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A126EE98EFCFB1327994EB4258D66E81 /* Build configuration list for PBXNativeTarget "Pods-To Do App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B22CF02E7416D5841AAB03D015427ACC /* Debug */,
-				9A078422AFA4B1B54FC5E9AE95E03D55 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C0016DD682E4DCA6A5CF2BFFFCA105AA /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD0E1CE5E158DA73F39EC2925BD00D0B /* Debug */,
 				725C4B8E8D409AEE4F845458C1F271AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC55C774B4C258BC63C6C52B4DE185D /* Build configuration list for PBXNativeTarget "Pods-To Do App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D01FE0E0E67C15D726D9A3E2B514596 /* Debug */,
+				0BF16E765BA6CBB0A6EB6EF960CDD7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

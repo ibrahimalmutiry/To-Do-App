@@ -94,6 +94,6 @@ class DetailsVC: UIViewController {
         }
 
         alert2.addAction(closeAction)
-        self.present(alert, animated: true, completion: { })
+        self.present(alert2, animated: true, completion: { })
     }
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9AADE1ED0C3AE0C8CEA87E0D /* Pods_To_Do_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36C08B4842BBA85CBCE1514 /* Pods_To_Do_App.framework */; };
 		F800DB35275D4091000004D9 /* TodosModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F800DB33275D4091000004D9 /* TodosModel.xcdatamodeld */; };
+		F82B4644276239420007B942 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82B4643276239420007B942 /* Store.swift */; };
 		F83024DA275D0C7F00EF2DC8 /* MyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83024D9275D0C7F00EF2DC8 /* MyAlertViewController.swift */; };
 		F838F8EA275E8679004DB273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F838F8E9275E8679004DB273 /* Main.storyboard */; };
 		F8687DE6275A61EC003AD91D /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8687DE5275A61EC003AD91D /* DetailsVC.swift */; };
@@ -27,6 +28,7 @@
 		D36C08B4842BBA85CBCE1514 /* Pods_To_Do_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_To_Do_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B1C0FB7780152E9B47FAD6 /* Pods-To Do App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-To Do App.debug.xcconfig"; path = "Target Support Files/Pods-To Do App/Pods-To Do App.debug.xcconfig"; sourceTree = "<group>"; };
 		F800DB34275D4091000004D9 /* TodosModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodosModel.xcdatamodel; sourceTree = "<group>"; };
+		F82B4643276239420007B942 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		F83024D9275D0C7F00EF2DC8 /* MyAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAlertViewController.swift; sourceTree = "<group>"; };
 		F838F8E9275E8679004DB273 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F8687DE5275A61EC003AD91D /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				F800DB32275D3F4B000004D9 /* Controller */,
 				F800DB59275D410F000004D9 /* View */,
 				F8A558BC2753C9EB00520CAB /* Todo.swift */,
+				F82B4643276239420007B942 /* Store.swift */,
 				F800DB33275D4091000004D9 /* TodosModel.xcdatamodeld */,
 				F8A558A92753B85300520CAB /* Assets.xcassets */,
 				F8A558AB2753B85300520CAB /* LaunchScreen.storyboard */,
@@ -245,6 +248,7 @@
 				F8687DE6275A61EC003AD91D /* DetailsVC.swift in Sources */,
 				F83024DA275D0C7F00EF2DC8 /* MyAlertViewController.swift in Sources */,
 				F800DB35275D4091000004D9 /* TodosModel.xcdatamodeld in Sources */,
+				F82B4644276239420007B942 /* Store.swift in Sources */,
 				F8A558B72753BB1000520CAB /* TodosVC.swift in Sources */,
 				F8A558A32753B85100520CAB /* SceneDelegate.swift in Sources */,
 				F8A558BB2753C4E900520CAB /* TodoCell.swift in Sources */,

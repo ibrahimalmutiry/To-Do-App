@@ -25,10 +25,12 @@ class NewTodoVC: UIViewController{
         super.viewDidLoad()
         
         detailTextView.layer.borderWidth = 0.5
-        titleTextField.borderStyle = .roundedRect
         
+        detailTextView.layer.cornerRadius = 15
         mainButton.layer.cornerRadius = 15
         todoImage.layer.cornerRadius = 15
+        
+       
         
         if !isCreation {
             navigationItem.title = "تعديل مهمة"
@@ -58,19 +60,37 @@ class NewTodoVC: UIViewController{
      }
     
     @IBAction func addButton(_ sender: Any) {
+   // Added
         if isCreation{
             let todo = Todo(title: titleTextField.text!, details: detailTextView.text, image: todoImage.image)
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "NewTodoAdded"), object: nil, userInfo: ["addedTodo": todo])
             
-            let alert = UIAlertController(title: "تم الإضافة", message: "تمت إضافة المهمة بنجاح", preferredStyle: .alert)
-            let closeAction = UIAlertAction(title: "اغلاق", style: .default) { _ in
+            /// ------------------------------------------------------------------------------------------------------------------------------ ///
+            let alert3 = MyAlertViewController(
+                title: "تمت الاضافة",
+                message: "تمت إضافة المهمة بنجاح",
+                imageName: "warning_icon")
+
+            alert3.addAction(title: "تم", style: .cancel) { alert in
                 self.tabBarController?.selectedIndex = 0
                 self.titleTextField.text = ""
                 self.detailTextView.text = ""
+                
             }
-            alert.addAction(closeAction)
-            present(alert, animated: true, completion: { })
+            present(alert3, animated: true, completion: nil)
+            /// ------------------------------------------------------------------------------------------------------------------------------ ///
             
+//            let alert = UIAlertController(title: "تم الإضافة", message: "تمت إضافة المهمة بنجاح", preferredStyle: .alert)
+            
+//            let closeAction = UIAlertAction(title: "اغلاق", style: .default) { _ in
+//                self.tabBarController?.selectedIndex = 0
+//                self.titleTextField.text = ""
+//                self.detailTextView.text = ""
+//            }
+//            alert3.addAction(closeAction)
+//            present(alert3, animated: true, completion: { })
+            
+   // Edited
         }else{
             let todo = Todo(title: titleTextField.text!, details: detailTextView.text, image: todoImage.image)
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "CurrnetTodoEdited"), object: nil, userInfo: ["editedTodo": todo, "editedIndex": editedTodoIndex!])
@@ -84,7 +104,6 @@ class NewTodoVC: UIViewController{
             alert.addAction(closeAction)
             present(alert, animated: true, completion: { })
         }
-      
     }
     
     @IBAction func changeImageButton(_ sender: Any) {
