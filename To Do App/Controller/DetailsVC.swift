@@ -68,7 +68,6 @@ class DetailsVC: UIViewController {
     }
     
     @IBAction func deleteButton(_ sender: Any) {
-        
         let alert = MyAlertViewController(
             title: "تنبيه الحذف",
             message: "هل انت متأكد من إتمام عملية الحذف؟",
@@ -80,20 +79,21 @@ class DetailsVC: UIViewController {
             // this Notification for delete button:
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "DeleteTodo"), object: nil, userInfo: ["deletedTodoIndex": self.index!])
 
-            let alert = UIAlertController(title: "تم الحذف", message: "تم حذف المهمة بنجاح", preferredStyle: .alert)
-            
-            
-            let closeAction = UIAlertAction(title: "اغلاق", style: .default) { _ in
-                self.navigationController?.popViewController(animated: true)
-            }
-
-            alert.addAction(closeAction)
-            self.present(alert, animated: true, completion: { })
         }
         alert.addAction(title: "إلغاء", style: .cancel) { alert in
             self.navigationController?.popViewController(animated: true)
-
         }
         present(alert, animated: true, completion: nil)
+        
+        
+        let alert2 = UIAlertController(title: "تم الحذف", message: "تم حذف المهمة بنجاح", preferredStyle: .alert)
+        
+        
+        let closeAction = UIAlertAction(title: "اغلاق", style: .default) { _ in
+            self.navigationController?.popViewController(animated: true)
+        }
+
+        alert2.addAction(closeAction)
+        self.present(alert, animated: true, completion: { })
     }
 }

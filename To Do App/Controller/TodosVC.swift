@@ -17,6 +17,7 @@ class TodosVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.todoArray = getTodos()
         
         // this Notification for add button:
@@ -34,7 +35,6 @@ class TodosVC: UIViewController {
     }
     
     @objc func newTodoAdded(notification: Notification){
-        
         if let myTodo = notification.userInfo?["addedTodo"] as? Todo {
             todoArray.append(myTodo)
             todoTableView.reloadData()
@@ -43,7 +43,6 @@ class TodosVC: UIViewController {
     }
     
     @objc func currentTodoEdited(notification: Notification){
-        
         if let myTodoEdit = notification.userInfo?["editedTodo"] as? Todo {
             if let index = notification.userInfo?["editedIndex"] as? Int {
                 todoArray[index] = myTodoEdit
@@ -84,7 +83,6 @@ class TodosVC: UIViewController {
             print("------error------")
         }
     }
-    
     
     func updateTodos(todo: Todo, index: Int){
         guard let appdelegate = UIApplication.shared.delegate as? AppDelegate else {return}
@@ -151,20 +149,11 @@ class TodosVC: UIViewController {
         }catch{
             print("------error from getTodo------")
         }
-        
         return todos
     }
-    
-    
-    
-    
-    
-    
 }
 
-
 extension TodosVC: UITableViewDataSource, UITableViewDelegate {
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return todoArray.count
     }

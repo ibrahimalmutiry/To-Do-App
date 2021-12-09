@@ -23,6 +23,7 @@ class NewTodoVC: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         detailTextView.layer.borderWidth = 0.5
         titleTextField.borderStyle = .roundedRect
         
@@ -44,7 +45,17 @@ class NewTodoVC: UIViewController{
                 todoImage.image = todo.image
             }
         }
+        
+        // dismiss keyoard (insid viewDidLoad)
+        let tap = UITapGestureRecognizer(target: self, action: #selector(handleTap))
+        view.addGestureRecognizer(tap)
+
     }
+    // dismiss keyoard
+    @objc func handleTap() {
+        detailTextView.resignFirstResponder()
+        titleTextField.resignFirstResponder()
+     }
     
     @IBAction func addButton(_ sender: Any) {
         if isCreation{
@@ -94,10 +105,6 @@ extension NewTodoVC:  UIImagePickerControllerDelegate & UINavigationControllerDe
         todoImage.image = image
     }
 }
-
-
-
-
 
 
 
